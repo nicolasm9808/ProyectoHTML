@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+}
+header {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+#yate-inicio{
+    /* height: 100vh; */
+    max-width: 100%;
+
+}
+/* header{
+    background-image: url(/Recursos/Inicio.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+} */
+
+#barra-nav{
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #07151D;
+    width: 98%;
+    padding: 1%;
+    align-items: center;
+    margin: 0;
+}
+
+#contenedor-logo{
+    margin: 5%;
+    display: flex;
+}
+
+#logo{
+    width: auto;
+    height: 4vh;
+}
+
+.contenedor-icono{
+    display: flex;
+    justify-content: center;
+}
+
+.icono-barra-nav{
+    width: auto;
+    height: 3vh;
+}
+
