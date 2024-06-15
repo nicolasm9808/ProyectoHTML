@@ -2,25 +2,23 @@ body{
     margin: 0;
 }
 header {
+    background-image: url(Recursos/Inicio.jpg);
+    background-size: cover;
     display: flex;
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 93vh;
     justify-content: center;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
+
 #yate-inicio{
     /* height: 100vh; */
-    max-width: 100%;
+    height: 93vh;
+    overflow: hidden;
 
 }
-/* header{
-    background-image: url(/Recursos/Inicio.jpg);
-    height: 100vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-} */
 
 #barra-nav{
     display: grid;
@@ -39,8 +37,7 @@ header {
 }
 
 #logo{
-    width: auto;
-    height: 4vh;
+    width: 30vw;
 }
 
 .contenedor-icono{
@@ -49,7 +46,6 @@ header {
 }
 
 .icono-barra-nav{
-    width: auto;
-    height: 3vh;
+    width: 6vw;
 }
 
